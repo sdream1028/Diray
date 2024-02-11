@@ -1,1 +1,1 @@
-The notes for learning coding.
+The notes for learning HTML、CSS and JavaScript.
