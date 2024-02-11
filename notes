@@ -114,28 +114,39 @@
   <h1>Chao-Wen's Blog for learning coding</h1>
   <hr>
   </div>
-  <div class="main">
   <a href="https://google.com.tw" alt="這是Google首頁連結">Google</a>
+  <div class="main">
   <h2>Diary</h2>
   <a href="https://www.freepik.com/photos/beautiful-cat"><img src="https://img.freepik.com/free-photo/cute-domestic-kitten-sits-window-staring-outside-generative-ai_188544-12519.jpg" width="300" alt="貓咪圖片"></a>
   <p>2024-02-06 Signed up for FCU Master of Information and Electrical Engineering</p>
   <p>2024-02-06 Start learning HTML, CSS</p>
+  </div>
+  <hr class="hr1">
+  <div class="main2">
   <h3>Self-study</h3>
-  <p>Free learning sources:</p>
+  <section>
+  <article>
+  <p>Free learning sources</p>
   <ul>
     <li>w3school</li>
     <li>freecodecamp</li>
     <li>codecademy</li>
   </ul>
-  <p>Free online coding resources:</p>
+  </article>
+  <article>
+  <p>Free online coding resources</p>
   <ul>
     <li>jsfiddle</li>
     <li>codepen</li>
   </ul>
-  <p>Free code editor:</p>
+  </article>
+  <article>
+  <p>Free code editor</p>
   <ul>
     <li>visual studio Code</li>
   </ul>
+  </article>
+  </section>
   </div>
   </body>
   <hr>
@@ -157,19 +168,47 @@ CSS
 
 .main {
   font-family: monospace;
+  background-color: #2C6189;
+  margin: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 10px;
+  max-width: 800px;
+  width: 80%;
+}
+
+.main2 {
+  background-color: #AA385A;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 10px;
+  max-width: 800px;
+  width: 80%;
 }
 
 h2 {
   text-decoration: underline;
+  text-align: center;
 }
 
 h3 {
   text-decoration: underline;
+  color: #265F8B;
+  text-align: center;
 }
 
 hr {
   height: 2px;
   background-color: black;
+}
+
+.hr1 {
+  width: 80%;
+  height: 1px;
 }
 
 a {
@@ -195,6 +234,15 @@ footer {
   font-family: monospace;
 }
 
-p {
+p, ul {
   font-family: monospace;
+  text-align: center;
+  display: table;
+  margin: 1 auto;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
