@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- meta 標籤 -->
+
+        <meta charset="UTF-8"></meta> <!--UTF-8 網頁編碼 可顯示中文-->
+        <meta name="description" content="從零開始的歷程"/> <!-- 讓搜尋引擎了解網頁在做什麼-->
+        <meta name="author" content="超文"/> <!-- 作者 -->
+        <meta name="keyword" content="軟體,工程,前端"/> <!-- 搜尋關鍵字 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- 視口(不同裝置瀏覽:手機、電腦等,畫面大小不一樣) 根據裝置大小做等比例調整-->
+        <title>布啾工程之旅</title> <!--網頁抬頭-->
+    </head>
+    <body style="background-color: white;" style="text-align: center;"  >
+        <h1 style="font-family: Arial, Helvetica, sans-serif;">從零開始軟體工程</h1> <!--h1~h6 重要標題 逐漸縮小-->
+        <p></p><!--P代表文字段落--> <!--<b>粗體字</b> <i>斜體</i> -->
+        <br/> <!--換行-->
+        <hr/> <!--水平線--> <!--若無內容則後面加入斜線即可</>-->
+
+        <!--連結 & 圖片-->
+        <a href="https://google.com">Google首頁</a>
+        <br/><br/>
+        <a href="page2.html">Page2</a>
+        <br/><br/>
+        <a href="dir/page3.html">Page3</a>
+        <br/><br/>
+        <a href="cat.jpg">貓咪</a>
+
+        <img src="https://storage.googleapis.com/www-cw-com-tw/article/201810/article-5bd182cf13ebb.jpg"/> <!-- src屬性:給圖片的位置--> <!--外部網站的照片-->
+        <img src="cat.jpg" width="600" height="400"/> <!--資料夾內自己準備的影像-->  <!--自定義照片大小 width='' height='', 只改width或height 等比例縮小-->
+
+        <!-- 影片 & 嵌入Youtube影片-->  <!---嵌入影片 > 分享 > 嵌入 -->
+        <video src="marry.mp4" controls width="600">瀏覽器無法載入影片</video>  <!-- >< 放入內容 載入失敗時會顯示的文字, 加入controls 控制屬性 -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ayXcUH-QaJQ?si=Mtnp0AkH4Ot0DiMV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <!-- 列表 & 表格 -->
+        <ul>  <!-- ul 列表, li 標籤, ol 數字排序, ol type='' 字母排序-->
+            <li>Google</li>
+            <li>Instagram</li>
+        </ul> 
+
+        <table width="150"> <!-- table 表格 -->
+            <tr> <!-- tr 一行 -->
+                <td>日期</td> <!--td 內容-->
+                <td>天氣</td>
+                <td>溫度</td>
+            </tr>
+            <tr>
+                <td>2/6</td>
+                <td>晴</td>
+                <td>20度</td>
+            </tr>
+        </table>
+
+        <!-- html的容器 div & Span--> <!-- Span 寬度多少 佔的空間就多少, Div 不管寬度多少 佔的空間就是一整行 -->
+        <div style="color: brown;"> <!-- div 只要寫一行CSS程式 方便網頁美化排版 -->
+            <ul>
+                <li>Google</li>
+                <li>Instagram</li>
+            </ul> 
+    
+            <table width="150">
+                <tr>
+                    <td>日期</td>
+                    <td>天氣</td>
+                    <td>溫度</td>
+                </tr>
+                <tr>
+                    <td>2/6</td>
+                    <td>晴</td>
+                    <td>20度</td>
+                </tr>
+            </table>
+        </div> 
+        <br/>
+
+        <!-- html輸入標籤 -->
+        <input type="text" placeholder="請輸入帳號"/> <!-- type 輸入內容的類型是什麼, placeholder 提醒用戶輸入提示 -->
+        <br/>
+        <br/>
+        <input type="password" placeholder="請輸入密碼"/> <!-- password 遮擋輸入文字 -->
+        <br/>
+        <br/>
+        <input type="date"/> <!-- 日期 -->
+        <br/>
+        <br/>
+        <input type="range"/> <!-- 選擇範圍 -->
+        <br/>
+        <br/>
+        <input type="file"/> <!-- 上傳檔案 -->
+        <br/>
+        <br/>
+        <input type="checkbox"/> <!-- 打勾欄位 -->
+        <br/>
+        <br/>
+        <textarea></textarea> <!-- 輸入欄位 (備註文章等), textarea 輸入內容就有預設文字 -->
+    </div>
+
+    </body>
+</html>
