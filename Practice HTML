@@ -6,45 +6,44 @@
   <!--<link rel="stylesheet" href="styles.css">-->
   <title>Wen's blog</title>
   <body>
-  <div class="h1">
+    <div class="h1">
   <hr>
   <h1>Chao-Wen's Blog for learning coding</h1>
   <hr>
-  </div>
-  <a href="https://google.com.tw" alt="這是Google首頁連結" title="google home page">Google</a>
+    </div>
   <div class="main">
   <h2>Diary</h2>
-  <a href="https://www.freepik.com/photos/beautiful-cat"><img src="https://img.freepik.com/free-photo/cute-domestic-kitten-sits-window-staring-outside-generative-ai_188544-12519.jpg" alt="貓咪圖片" title="貓咪連結" border="1" width="300"></a>
+  <a href="https://www.freepik.com/photos/beautiful-cat"><img src="https://img.freepik.com/free-photo/cute-domestic-kitten-sits-window-staring-outside-generative-ai_188544-12519.jpg" alt="貓咪圖片" title="貓咪連結" border="0" width="300"></a>
   <p>2024-02-06 Signed up for FCU Master of Information and Electrical Engineering</p>
   <p>2024-02-06 Start learning HTML, CSS</p>
-  </div>
+    </div>
   <hr class="hr1">
-  <div class="main2">
+    <div class="main2">
   <h3>Self-study</h3>
   <section>
   <article>
   <p>Free learning sources</p>
   <ul>
-    <li>w3school</li>
-    <li>freecodecamp</li>
-    <li>codecademy</li>
+    <li>W3school</li>
+    <li>Freecodecamp</li>
+    <li>Codecademy</li>
   </ul>
   </article>
   <article>
   <p>Free online coding resources</p>
   <ul>
-    <li>jsfiddle</li>
-    <li>codepen</li>
+    <li>Jsfiddle</li>
+    <li>Codepen</li>
   </ul>
   </article>
   <article>
   <p>Free code editor</p>
   <ul>
-    <li>visual studio Code</li>
+    <li>Visual Studio Code</li>
   </ul>
   </article>
   </section>
-  </div>
+    </div>
   </body>
   <hr>
   <footer>
