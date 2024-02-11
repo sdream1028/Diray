@@ -56,12 +56,12 @@ a {
   color: #761028;
 }
 
-a:hover {
-  color: #2366A0;
-}
-
 a:visited {
   color: #A02340;
+}
+
+a:hover {
+  color: #2366A0;
 }
 
 a:active {
