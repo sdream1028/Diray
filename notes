@@ -1,3 +1,4 @@
+<!--
 <!DOCTYPE html>
 <html>
     <head>
@@ -97,3 +98,102 @@
 
     </body>
 </html>
+-->
+
+02/11 New Blog
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Chao-Wen">
+  <!--<link rel="stylesheet" href="styles.css">-->
+  <title>Wen's blog</title>
+  <body>
+  <div class="h1">
+  <hr>
+  <h1>Chao-Wen's Blog for learning coding</h1>
+  <hr>
+  </div>
+  <div class="main">
+  <a href="https://google.com.tw" alt="這是Google首頁連結">Google</a>
+  <h2>Diary</h2>
+  <a href="https://www.freepik.com/photos/beautiful-cat"><img src="https://img.freepik.com/free-photo/cute-domestic-kitten-sits-window-staring-outside-generative-ai_188544-12519.jpg" width="300" alt="貓咪圖片"></a>
+  <p>2024-02-06 報名逢甲資訊電機工程在職碩班</p>
+  <p>2024-02-06 開始學習html, css</p>
+  <h3>Self-study</h3>
+  <p>Free learning sources:</p>
+  <ul>
+    <li>w3school</li>
+    <li>freecodecamp</li>
+    <li>codecademy</li>
+  </ul>
+  <p>Online free coding web:</p>
+  <ul>
+    <li>jsfiddle</li>
+  </ul>
+  <p>Free to download:</p>
+  <ul>
+    <li>visual studio Code</li>
+  </ul>
+  </div>
+  </body>
+  <hr>
+  <footer>
+    <p>Copyright © 2024 Chao-Wen</p>
+    <a href="mailto:sdream2810@gmail.com">sdream2810@gmail.com</a>
+  </footer>
+</html>
+
+----------
+
+CSS
+.h1 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+}
+
+.main {
+  font-family: monospace;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #761028;
+}
+
+a:hover {
+  color: #2366A0;
+}
+
+a:visited {
+  color: #A02340;
+}
+
+a:active {
+  color: #2366A0;
+}
+
+
+footer {
+  text-align: center;
+  font-family: monospace;
+}
+
+p {
+  font-family: monospace;
+}
