@@ -25,22 +25,22 @@
   <article>
   <p>Free learning resources</p>
   <ul>
-    <li>W3school</li>
-    <li>Freecodecamp</li>
-    <li>Codecademy</li>
+    <a href="https://www.w3schools.com/" title="Visit w3schools"><li>W3school</li></a>
+    <a href="https://www.freecodecamp.org/learn/" title="Visit to freecodecamp"><li>Freecodecamp</li></a>
+    <a href="https://www.codecademy.com/learn" title="Visit to codecademy"><li>Codecademy</li></a>
   </ul>
   </article>
   <article>
   <p>Free online coding resources</p>
   <ul>
-    <li>Jsfiddle</li>
-    <li>Codepen</li>
+    <a href="https://jsfiddle.net/" title="Visit jsfiddle"><li>Jsfiddle</li></a>
+    <a href="https://codepen.io/" title="Visit codepen"><li>Codepen</li></a>
   </ul>
   </article>
   <article>
   <p>Free code editor</p>
   <ul>
-    <li>Visual Studio Code</li>
+    <a href="https://code.visualstudio.com/" title="Visit VS code"><li>Visual Studio Code</li></a>
   </ul>
   </article>
   </section>
