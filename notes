@@ -118,8 +118,8 @@
   <a href="https://google.com.tw" alt="這是Google首頁連結">Google</a>
   <h2>Diary</h2>
   <a href="https://www.freepik.com/photos/beautiful-cat"><img src="https://img.freepik.com/free-photo/cute-domestic-kitten-sits-window-staring-outside-generative-ai_188544-12519.jpg" width="300" alt="貓咪圖片"></a>
-  <p>2024-02-06 報名逢甲資訊電機工程在職碩班</p>
-  <p>2024-02-06 開始學習html, css</p>
+  <p>2024-02-06 Signed up for FCU Master of Information and Electrical Engineering</p>
+  <p>2024-02-06 Start learning html, css</p>
   <h3>Self-study</h3>
   <p>Free learning sources:</p>
   <ul>
@@ -130,6 +130,7 @@
   <p>Online free coding web:</p>
   <ul>
     <li>jsfiddle</li>
+    <li>codepen</li>
   </ul>
   <p>Free to download:</p>
   <ul>
