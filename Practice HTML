@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Chao-Wen">
-  <!--<link rel="stylesheet" href="styles.css">-->
+  <link rel="stylesheet" href="Pstyles.css">
   <!--<link rel="icon" href="/favicon.ico" >-->
   <title>Wen's blog</title>
   <body>
@@ -12,10 +12,12 @@
   <h1>Chao-Wen's Blog for learning coding</h1>
   <hr>
     </div>
-  <div class="main">
+    <div class="main">
   <h2>Diary</h2>
-  <a href="https://www.freepik.com/photos/beautiful-cat"><img src="https://img.freepik.com/free-photo/cute-domestic-kitten-sits-window-staring-outside-generative-ai_188544-12519.jpg" alt="貓咪圖片" title="貓咪連結" border="0" width="300"></a>
-  <p>2024-02-06 Signed up for <abbr title="Feng Chia University">FCU</abbr> Master of Information and Electrical Engineering</p>
+    <span id="img">
+      <img src="jojo.jpeg" alt="JoJo在睡覺" title="JoJo" height="280">
+    </span>
+  <p>2024-02-06 Signed up for <a href="https://www.fcu.edu.tw/" target="_blank"><abbr title="Feng Chia University">FCU</abbr></a> Master of Information and Electrical Engineering</p>
   <p>2024-02-06 Start learning HTML, CSS</p>
     </div>
   <hr class="hr1">
@@ -25,22 +27,22 @@
   <article>
   <p>Free learning resources</p>
   <ul>
-    <a href="https://www.w3schools.com/" title="Visit w3schools"><li>W3school</li></a>
-    <a href="https://www.freecodecamp.org/learn/" title="Visit to freecodecamp"><li>Freecodecamp</li></a>
-    <a href="https://www.codecademy.com/learn" title="Visit to codecademy"><li>Codecademy</li></a>
+    <a href="https://www.w3schools.com/" target="_blank" title="Visit w3schools"><li>W3school</li></a>
+    <a href="https://www.freecodecamp.org/learn/" target="_blank" title="Visit to freecodecamp"><li>Freecodecamp</li></a>
+    <a href="https://www.codecademy.com/learn" target="_blank" title="Visit to codecademy"><li>Codecademy</li></a>
   </ul>
   </article>
   <article>
   <p>Free online coding resources</p>
   <ul>
-    <a href="https://jsfiddle.net/" title="Visit jsfiddle"><li>Jsfiddle</li></a>
-    <a href="https://codepen.io/" title="Visit codepen"><li>Codepen</li></a>
+    <a href="https://jsfiddle.net/" target="_blank" title="Visit jsfiddle"><li>Jsfiddle</li></a>
+    <a href="https://codepen.io/" target="_blank" title="Visit codepen"><li>Codepen</li></a>
   </ul>
   </article>
   <article>
   <p>Free code editor</p>
   <ul>
-    <a href="https://code.visualstudio.com/" title="Visit VS code"><li>Visual Studio Code</li></a>
+    <a href="https://code.visualstudio.com/" target="_blank" title="Visit VS code"><li>Visual Studio Code</li></a>
   </ul>
   </article>
   </section>
