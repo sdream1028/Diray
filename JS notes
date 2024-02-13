@@ -1,94 +1,96 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="width=device-width, initial-scale=1.0">
-        <title>JavaScript Notes</title> 
-        <style>
-            button {
-                width: auto;
-                font-size: 25px;
-                font-family: monospace;
-            }
-        </style>
-    </head>
-    <body>
-        <!--<button onclick="
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="width=device-width, initial-scale=1.0">
+    <title>JavaScript Notes</title>
+    <style>
+        button {
+            width: auto;
+            font-size: 25px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <!--<button onclick="
             alert('this is button');
             //console.log('this is button');
             console.log(name);">
             Button</button>-->
 
-        <script>
-            // JavaScript most often uses the document.getElementById() method
-            //變數 variable 一個容器:可以把資料儲存在變數裡
-            // let 創建變數, const 無法改變已創建的值, var 是舊版 javaScript 寫法
-            /* 變數命名規則
-            1.不能使用保留字
-            2.開頭不能是數字
-            3.不能用特殊符號 除了$ _
-            // */
-            // let name = "button";
-            // let num = 8;
+    <script>
+        //變數 variable 一個容器:可以把資料儲存在變數裡
+        // let 創建變數, const 無法改變已創建的值, var 是舊版 javaScript 寫法
+        /* 變數命名規則
+        1.不能使用保留字
+        2.開頭不能是數字
+        3.不能用特殊符號 除了$ _
+        // */
+        // let name = "button";
+        // let num = 8;
 
-            /*指令會讓網頁跳出提示框
-            alert("這是按鈕"); */
-            //指令會顯示在網頁F12的console
-            // console.log("this is "+ name + num);
-            // num = 2;
-            // console.log(num);
+        /*指令會讓網頁跳出提示框
+        alert("這是按鈕"); */
+        //指令會顯示在網頁F12的console
+        // console.log("this is "+ name + num);
+        // num = 2;
+        // console.log(num);
 
-            // let name = `超文今年`; //`` = 模板字串 ${放入變數}, 也可以直接換行
-            // console.log(name);
-            // tol += 200; 等於 tol = tol + 200; += -= *= /= 簡寫, +1 可以寫成 ++ 或-1 --
+        // let name = `超文今年`; //`` = 模板字串 ${放入變數}, 也可以直接換行
+        // console.log(name);
+        // tol += 200; 等於 tol = tol + 200; += -= *= /= 簡寫, +1 可以寫成 ++ 或-1 --
 
-            // 布林值 boolean, 是否 真假, true false, 判斷兩邊的值是否相等 ===, 判斷左右兩邊的值是否不相等 !==
-            // console.log(5 > 2) 結果會顯示 true
+        // 布林值 boolean, 是否 真假, true false, 判斷兩邊的值是否相等 ===, 判斷左右兩邊的值是否不相等 !==
+        // console.log(5 > 2) 結果會顯示 true
 
-            //if 判斷式 如果...就...,  else 否則, else if 或是如果
-            // 如果下雨 我就開車去上班
-            // let isRain = true
-            // if (isRain) {
-            //     console.log("我就開車去上班") //若不成立, 則不會執行大括號{}裡的程式, 但會執行else 程式
-            // } else {
-            //     console.log("我就走路去上班");
-            // }
+        //if 判斷式 如果...就...,  else 否則, else if 或是如果
+        // 如果下雨 我就開車去上班
+        // let isRain = true
+        // if (isRain) {
+        //     console.log("我就開車去上班") //若不成立, 則不會執行大括號{}裡的程式, 但會執行else 程式
+        // } else {
+        //     console.log("我就走路去上班");
+        // }
 
 
-            // 如果BMI < 18.5 則過輕
-            // 否則 沒有過輕
-            // let BMI = 25
-            // if (BMI < 18.5) {
-            //     console.log("過輕");
-            // } else {
-            //     console.log("沒有過輕");
-            // }
+        // 如果BMI < 18.5 則過輕
+        // 否則 沒有過輕
+        // let BMI = 25
+        // if (BMI < 18.5) {
+        //     console.log("過輕");
+        // } else {
+        //     console.log("沒有過輕");
+        // }
 
-            // 如果BMI < 18.5 則過輕
-            // 或是如果BMI < 27 則正常
-            // 否則 過重
-            // let BMI = 25;
-            // if (BMI < 18.5) {
-            //     console.log("過輕");
-            // } else if (BMI < 27) {
-            //     console.log("正常");
-            // } else {
-            //     console.log("過重");
-            // } 
+        // 如果BMI < 18.5 則過輕
+        // 或是如果BMI < 27 則正常
+        // 否則 過重
+        // let BMI = 25;
+        // if (BMI < 18.5) {
+        //     console.log("過輕");
+        // } else if (BMI < 27) {
+        //     console.log("正常");
+        // } else {
+        //     console.log("過重");
+        // }
 
-            // 邏輯運算 且&& 或|| 非!
-            // 如果 18.5 <= BMI < 27 則正常 javascript無法做連續判斷 if (18.5 <= BMI < 27)
-            // 18.5 <= BMI 且 BMI < 27  則正常
-            // let BMI = 30;
-            // if (18.5 <= BMI && BMI < 27) {
-            //     console.log("正常");
-            // }
+        // 邏輯運算 且&& 或|| 非!
+        // 如果 18.5 <= BMI < 27 則正常 javascript無法做連續判斷 if (18.5 <= BMI < 27)
+        // 18.5 <= BMI 且 BMI < 27  則正常
+        // let BMI = 30;
+        // if (18.5 <= BMI && BMI < 27) {
+        //     console.log("正常");
+        // }
 
-            // 如果 BMI < 10 或 BMI > 100    則測量錯誤
-            // let BMI = 5;
-            // if (BMI < 10  || BMI > 100) {
-            //     console.log("測量錯誤");
-            // }
-        </script>
-    </body>
+        // 如果 BMI < 10 或 BMI > 100    則測量錯誤
+        // let BMI = 5;
+        // if (BMI < 10  || BMI > 100) {
+        //     console.log("測量錯誤");
+        // }
+    </script>
+</body>
+
 </html>
