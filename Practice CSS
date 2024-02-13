@@ -76,7 +76,8 @@
   
   ul {
     display: table;
-    margin: 1 auto;
+    padding-left: 15px;
+    
   }
   
    #img {
@@ -84,6 +85,8 @@
     display: block;
   }
   
-  /* CSS color code (https://www.quackit.com/css/css_color_codes.cfm)
+  /* 
+  CSS color code (https://www.quackit.com/css/css_color_codes.cfm)
   w3school color picker (https://www.w3schools.com/colors/colors_picker.asp) 
-  favicon (https://www.cc.ntu.edu.tw/chinese/epaper/0046/20180920_4602.html)*/
+  favicon (https://www.cc.ntu.edu.tw/chinese/epaper/0046/20180920_4602.html)
+  */
