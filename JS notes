@@ -20,6 +20,7 @@
             Button</button>-->
 
         <script>
+            // JavaScript most often uses the document.getElementById() method
             //變數 variable 一個容器:可以把資料儲存在變數裡
             // let 創建變數, const 無法改變已創建的值, var 是舊版 javaScript 寫法
             /* 變數命名規則
