@@ -1,87 +1,87 @@
 .h1 {
-    font-family: monospace;
-    text-align: center;
-    background-color: black;
-    color: white;
-  }
-  
-  .main {
-    font-family: monospace;
-    /*background-color: #2C6189;*/
-    margin: center;
-    margin: auto;
-    padding: 10px;
-    max-width: 800px;
-    width: 80%;
-  }
-  
-  #img {
-    display: block;
-    text-align: center;
-  }
+  font-family: monospace;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
 
-  .main2 {
-    font-family: monospace;
-    /*background-color: #AA385A;*/
-    margin: auto;
-    padding: 10px;
-    max-width: 800px;
-    width: 80%;
-  }
-  
-  h2 {
-    text-decoration: underline;
-    text-align: center;
-  }
-  
-  h3 {
-    text-decoration: underline;
-    color: #265F8B;
-    text-align: center;
-  }
-  
-  hr {
-    height: 2px;
-    background-color: black;
-  }
-  
-  .hr1 {
-    max-width: 800px;
-    width: 80%;
-    height: 1px;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #761028;
-  }
-  
-  a:visited {
-    color: #A02340;
-  }
-  
-  a:hover {
-    color: #2366A0;
-  }
-  
-  a:active {
-    color: #2366A0;
-  }
-  
-  
-  footer {
-    text-align: center;
-    font-family: monospace;
-  }
-  
-  ul {
-    display: table;
-    padding-left: 15px;
-    
-  }
-  
+.main {
+  font-family: monospace;
+  /*background-color: #2C6189;*/
+  margin: center;
+  margin: auto;
+  padding: 10px;
+  max-width: 800px;
+  width: 80%;
+}
 
-  /* 
+#img {
+  display: block;
+  text-align: center;
+}
+
+.main2 {
+  font-family: monospace;
+  /*background-color: #AA385A;*/
+  margin: auto;
+  padding: 10px;
+  max-width: 800px;
+  width: 80%;
+}
+
+h2 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+h3 {
+  text-decoration: underline;
+  color: #265F8B;
+  text-align: center;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+}
+
+.hr1 {
+  max-width: 800px;
+  width: 80%;
+  height: 1px;
+}
+
+a {
+  text-decoration: none;
+  color: #761028;
+}
+
+a:visited {
+  color: #A02340;
+}
+
+a:hover {
+  color: #2366A0;
+}
+
+a:active {
+  color: #2366A0;
+}
+
+
+footer {
+  text-align: center;
+  font-family: monospace;
+}
+
+ul {
+  display: table;
+  padding-left: 15px;
+
+}
+
+
+/* 
   CSS color code (https://www.quackit.com/css/css_color_codes.cfm)
   w3school color picker (https://www.w3schools.com/colors/colors_picker.asp) 
   favicon (https://www.cc.ntu.edu.tw/chinese/epaper/0046/20180920_4602.html)
