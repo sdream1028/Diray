@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>剪刀石頭布遊戲</title>
-    </head>
-    <body>
-        <p>請選擇 剪刀 石頭 布</p>
-        <button onclick="
+
+<head>
+    <title>剪刀石頭布遊戲</title>
+</head>
+
+<body>
+    <p>請選擇 剪刀 石頭 布</p>
+    <button onclick="
             const randomNum = Math.random()*3;  // Math.random() 隨機 0~1 之間的數字, *3 等於 0 <= Num < 3
             let computerChoice = '';
             console.log(randomNum);
@@ -26,7 +28,7 @@
             }
         ">剪刀</button>
 
-        <button onclick="
+    <button onclick="
         const randomNum1 = Math.random()*3;  // Math.random() 隨機 0~1 之間的數字, *3 等於 0 <= Num < 3
         let computerChoice1 = '';
         console.log(randomNum1);
@@ -47,7 +49,7 @@
         }
     ">石頭</button>
 
-        <button onclick="
+    <button onclick="
         const randomNum2 = Math.random()*3;  // Math.random() 隨機 0~1 之間的數字, *3 等於 0 <= Num < 3
         let computerChoice2 = '';
         console.log(randomNum2);
@@ -67,9 +69,10 @@
             alert(`你出布，電腦出${computerChoice2}，此局平手！`);
         }
     ">布</button>
-        
-        <script>
-            
-        </script>
-    </body>
+
+    <script>
+
+    </script>
+</body>
+
 </html>
