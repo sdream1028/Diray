@@ -9,22 +9,21 @@
     font-family: monospace;
     /*background-color: #2C6189;*/
     margin: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
     padding: 10px;
     max-width: 800px;
     width: 80%;
   }
   
+  #img {
+    display: block;
+    text-align: center;
+  }
+
   .main2 {
     font-family: monospace;
     /*background-color: #AA385A;*/
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
     padding: 10px;
     max-width: 800px;
     width: 80%;
@@ -47,6 +46,7 @@
   }
   
   .hr1 {
+    max-width: 800px;
     width: 80%;
     height: 1px;
   }
@@ -80,11 +80,7 @@
     
   }
   
-   #img {
-    text-align: center;
-    display: block;
-  }
-  
+
   /* 
   CSS color code (https://www.quackit.com/css/css_color_codes.cfm)
   w3school color picker (https://www.w3schools.com/colors/colors_picker.asp) 
