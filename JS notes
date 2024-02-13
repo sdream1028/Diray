@@ -90,6 +90,45 @@
         // if (BMI < 10  || BMI > 100) {
         //     console.log("測量錯誤");
         // }
+
+        //作用域 scope (全域變數 區域變數) 區域變數:大括號內定義變數只作用於括號內, 出了括號變數即被刪除
+        // if (true) {
+        //     let a = 0;
+        // }
+        // if (true) {
+        //     let a = 0;
+        // }
+
+        //函數(函式) function
+        //函數:讓我們重複使用一段程式碼
+        //功能:製作好功能 想使用就拿出來用
+        // function 定義名稱() {
+        //     console.log("你好");
+        // }
+
+        // 定義好函數後,不會馬上執行程式,需呼叫函數才會執行
+        // function hello() {
+        //     console.log("你好");
+        //     console.log("布布");
+        // }
+
+        // hello(); //也可以重複使用函數
+        // hello();
+
+        //函數回傳 return, return下面的程式碼就不會被執行
+
+        //函數參數 parameter 把資料傳到函數裡面去做使用
+        // function calculateDiscount(price, discount) { //也可以預設值參數 discount = 0.9
+        //     const discountPrice = price * discount;
+        //     return discountPrice;
+        // }
+
+        // let price = 5000;
+        // let discount = 0.8;
+        // console.log(calculateDiscount(price,discount));
+
+        //物件 object 把資料結合在一起
+
     </script>
 </body>
 
