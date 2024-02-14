@@ -1,11 +1,11 @@
-.h1 {
+.header {
   font-family: monospace;
   text-align: center;
   background-color: black;
   color: white;
 }
 
-.main {
+.theDiaryLog {
   font-family: monospace;
   /*background-color: #2C6189;*/
   margin: center;
@@ -20,7 +20,7 @@
   text-align: center;
 }
 
-.main2 {
+.resourcesLink {
   font-family: monospace;
   /*background-color: #AA385A;*/
   margin: auto;
