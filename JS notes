@@ -128,7 +128,72 @@
         // console.log(calculateDiscount(price,discount));
 
         //物件 object 把資料結合在一起
+        // let product = {
+        //     name: "海底撈泡麵",
+        //     price: 100
+        // }
 
+        // console.log(product.price);
+        // product.price = 200;
+        // console.log(product.price);
+
+        // product.expiredDate = "2024/02/14"; 可以直接新增屬性進object
+        // console.log(product);
+
+        // delete product.price; 刪除屬性內的物件
+
+        // let cart = {
+        //     productNum: 0,
+        //     product1: 0,
+        //     product2: 0,
+        //     totalPrice: 0
+        // }
+
+        // 物件 object 第二種用法
+        // console.log(['totalPrice']); 取得cart屬性內的物件
+
+        // let cart = {     物件內可以再新增物件
+        //     productNum: 0,
+        //     product1: {
+        //         num: 0,
+        //         name: '海底撈泡麵',
+        //         price: 100
+        //     },
+        //     product2: 0,
+        //     totalPrice: 0
+        // }
+
+        // localStorage 儲存資料到瀏覽器, 重新整理網頁資料不會消失, 只能儲存字串
+        // localStorage.setItem("price", 1000);
+        // 取得儲存的資料
+        // localStorage.getItem("price");
+
+        // 用變數把物件儲存起來
+        // const cart1 = localStorage.getItem("cart");
+        // console.log(typeof cart);
+
+        // 刪除儲存的資料
+        // localStorage.removeItem("price");
+
+        // JSON 把物件轉換成 JSON字串格式, 屬性對應的值不能是函數
+        // const jsoncart = JSON.stringify(cart);
+        
+        // //JSON格式轉換成物件 JS格式
+        // JSON.parse(jsoncart);
+
+        // const jsoncart = JSON.stringify(cart);
+        // localStorage.setItem("cart", jsoncart);
+        
+        // let cart1 = localStorage.getItem("cart");
+        // cart1 = JSON.parse(cart1);
+        // console.log(cart1);
+
+
+        // falsy & truthy value
+        // false, "", 0, NaN, undefined, null
+        // if (""){
+        //     console.log("你好"); // 不會顯示 因為是falsy value 沒有值
+        // }
     </script>
 </body>
 
