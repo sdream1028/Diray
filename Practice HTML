@@ -7,19 +7,18 @@
 <title>Wen's blog</title>
 
 <body>
-    <div class="h1">
+    <div class="header">
         <hr>
         <h1>Chao-Wen's Blog for learning coding</h1>
         <hr>
     </div>
 
-    <div class="main">
+    <div class="theDiaryLog">
         <h2>Diary</h2>
         <span id="img">
             <img src="jojo.jpeg" alt="JoJo在睡覺" title="JoJo" height="280">
         </span>
-        <p>2024-02-06 Signed up for <a href="https://www.fcu.edu.tw/" target="_blank"><abbr
-                    title="Feng Chia University">FCU</abbr></a> Master of Information and Electrical Engineering.</p>
+        <p>2024-02-06 Signed up for <a href="https://www.fcu.edu.tw/" target="_blank"><abbr title="Feng Chia University">FCU</abbr></a> Master of Information and Electrical Engineering.</p>
         <p>2024-02-06 Start learning HTML, CSS.</p>
         <p>2024-02-13 Start learning JavaScript.</p>
     </div>
@@ -27,7 +26,7 @@
 
     <hr class="hr1">
 
-    <div class="main2">
+    <div class="resourcesLink">
         <h3>Self-study</h3>
         <!--<section>
         <article>-->
@@ -69,7 +68,7 @@
 </body>
 <hr>
 <footer>
-    <p>Copyright © 2024 Chao-Wen</p>
+    <p>Copyright c 2024 Chao-Wen</p>
     <a href="mailto:sdream2810@gmail.com" title="send mail to Chao-Wen">sdream2810@gmail.com</a>
 </footer>
 
