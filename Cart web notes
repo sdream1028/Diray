@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>購物網頁</title>
+    <style>
+        button {
+            font-size: 25px;
+            margin-right: 10px;
+        }
+
+        p {
+            font-size: 25px;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        img {
+            height: 200px;
+            display: block;
+            margin-top: 50px;
+        }
+    </style>
+
+<body>
+    <button onclick="
+            showCart();
+            ">購物車總額</button>
+
+    <button onclick="
+            cart.productNum = 0;
+            cart.product1.num = 0;
+            cart.product2.num = 0;
+            cart.totalPrice = 0;
+            console.log('已清空購物車');
+            showCart();
+            localStorage.removeItem('cart');
+            ">清空購物車</button>
+    <br><br>
+
+    <p>$100</p>
+    <button onclick="
+            cart.product1.num ++;
+            cart.productNum ++;
+            cart.totalPrice += 100;
+            showCart();
+            saveCart();
+            ">加入購物車</button>
+    <br><br>
+
+    <p>$200</p>
+    <button onclick="
+            cart.product2.num ++;
+            cart.productNum ++;
+            cart.totalPrice += 200;
+            showCart();
+            saveCart();
+            ">加入購物車</button>
+
+    <script>
+
+        // let tol = 0;
+        // let name = `超文今年`; //`` = 模板字串 ${放入變數}, 也可以直接換行
+        // console.log(name);
+        // total += 200; 等於 total = total + 200; += -= *= /= 簡寫, +1 可以寫成 ++ 或-1 --.
+        let cart = JSON.parse(localStorage.getItem('cart'));
+
+        // if (cart === null) {
+        if (!cart) {
+            cart = {
+                productNum: 0,
+                product1: {
+                    num: 0,
+                    name: '海底撈泡麵',
+                    price: 100
+                },
+                product2: {
+                    num: 0,
+                    name: '養氣人參',
+                    price: 200
+                },
+                totalPrice: 0,
+            };
+        }
+
+        // let cart = {     //物件內可以再新增物件
+        //     productNum: 0,
+        //     product1: {
+        //         num: 0,
+        //         name: '海底撈泡麵',
+        //         price: 100
+        //     },
+        //     product2: {
+        //         num: 0,
+        //         name: '養氣人參',
+        //         price: 200
+        //     },
+        //     totalPrice: 0,        //也可以在物件內顯示函數 稱為 方法
+        // };
+
+        showCart: function showCart() {
+            console.log(`目前商品數 : ${cart.productNum}`);
+            console.log(`${cart.product1.name}: ${cart.product1.num}`);
+            console.log(`${cart.product2.name} : ${cart.product2.num}`);
+            console.log(`目前購物車總額 : ${cart.totalPrice}`);
+        };
+
+        // cart.showCart();
+
+        // console.log(cart['totalPrice']);  
+        // console.log(cart.product1.name);
+
+        // function showCart() {
+        //     console.log(`目前商品數 : ${cart.productNum}`);
+        //     console.log(`商品1 : ${cart.product1}`);
+        //     console.log(`商品2 : ${cart.product2}`);
+        //     console.log(`目前購物車總額 : ${cart.totalPrice}`);
+        // };
+
+        // const jsoncart = JSON.stringify(cart);
+        // console.log(typeof jsoncart);
+        // console.log(JSON.parse(jsoncart));
+
+        // const jsoncart = JSON.stringify(cart);
+        // localStorage.setItem("cart", jsoncart);
+
+        // let cart1 = localStorage.getItem("cart");
+        // cart1 = JSON.parse(cart1);
+        // console.log(cart1);
+
+        function saveCart() {
+            const jsonCart = JSON.stringify(cart);
+            localStorage.setItem("cart", jsonCart);
+
+        };
+    </script>
+</body>
+</head>
+
+</html>
