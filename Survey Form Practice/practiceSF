@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chao Wen">
+    <link rel="stylesheet" href="surveystyle.css">
+    <title>Survey Form Practice</title>
+</head>
+
+<body>
+    <h1>Survey Form</h1>
+    <form>
+        <fieldset id="fieldset1">
+            <legend style="text-align: center;">Personal Information</legend>
+            <label for="name">Name<input type="text" name="name" id="name" placeholder="請輸入名字" autofocus
+                    required></label>
+            <label for="email">Email<input type="email" name="email" id="email" placeholder="請輸入信箱" required></label>
+            <label for="phone">Tel-Phone<input type="tel" name="tel" id="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}"
+                    placeholder="0912-345-678" required></label>
+        </fieldset>
+        <fieldset id="fieldset2">
+            <p>Choose your favorite front-end language</p>
+            <div class="sec">
+                <label for="fav-HTML"><input type="radio" id="fav-HTML" name="fav-lang" class="fav-lang" value="HTML"
+                        required>HTML</label>
+                <label for="fav-CSS"><input type="radio" id="fav-CSS" name="fav-lang" class="fav-lang" value="CSS"
+                        required>CSS</label>
+                <label for="fav-JavaScript"><input type="radio" id="fav-JavaScript" name="fav-lang" class="fav-lang"
+                        value="JavaScript" required>JavaScript</label>
+            </div>
+        </fieldset>
+
+        <input type="submit" name="submit" id="submit" value="Submit">
+        <input type="reset" name="reset" id="reset" value="Reset">
+    </form>
+</body>
+<hr>
+<footer>
+    <p>Copyright © 2024 Chao-Wen</p>
+    <a href="mailto:sdream2810@gmail.com" title="send mail to Chao-Wen">sdream2810@gmail.com</a>
+</footer>
+</html>
