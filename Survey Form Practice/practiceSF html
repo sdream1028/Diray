@@ -35,10 +35,11 @@
         <input type="submit" name="submit" id="submit" value="Submit">
         <input type="reset" name="reset" id="reset" value="Reset">
     </form>
+    <footer>
+        <a href="mailto:sdream2810@gmail.com" title="send mail to Chao-Wen" ></a>sdream2810@gmail.com</a>
+        <hr class="footerhr">
+        <p>Copyright © 2024 Chao-Wen</p>
+        <hr class="footerhr">
+    </footer>
 </body>
-<hr>
-<footer>
-    <p>Copyright © 2024 Chao-Wen</p>
-    <a href="mailto:sdream2810@gmail.com" title="send mail to Chao-Wen">sdream2810@gmail.com</a>
-</footer>
 </html>
