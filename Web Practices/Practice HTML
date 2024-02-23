@@ -12,7 +12,13 @@
         <h1>Chao-Wen's Blog for learning coding</h1>
         <hr>
     </div>
-
+    <aside>
+        <h2 id="asideh2">Learning Progress</h2>
+        <a href="https://my-learning.w3schools.com/tutorial/html" target="_blank" class="asidea">HTML</a>
+        <a href="https://my-learning.w3schools.com/tutorial/css" target="_blank" class="asidea">CSS</a>
+        <a href="https://my-learning.w3schools.com/tutorial/js" target="_blank" class="asidea">JavaScript</a>
+        <!-- <iframe src="https://pathfinder.w3schools.com/"></iframe> -->
+    </aside>
     <div class="theDiaryLog">
         <h2>Diary</h2>
         <span id="img">
@@ -23,13 +29,10 @@
         <p>2024-02-13 Start learning JavaScript.</p>
     </div>
 
-
     <hr class="hr1">
 
     <div class="resourcesLink">
         <h3>Self-study</h3>
-        <!--<section>
-        <article>-->
         <p>Free learning resources</p>
         <ul>
             <a href="https://www.w3schools.com/" target="_blank" title="Visit w3schools">
@@ -42,8 +45,6 @@
                 <li>Codecademy</li>
             </a>
         </ul>
-        <!--</article>
-        <article>-->
         <p>Free online coding resources</p>
         <ul>
             <a href="https://jsfiddle.net/" target="_blank" title="Visit jsfiddle">
@@ -53,23 +54,18 @@
                 <li>Codepen</li>
             </a>
         </ul>
-        <!--</article>
-        <article>-->
         <p>Free code editor</p>
         <ul>
             <a href="https://code.visualstudio.com/" target="_blank" title="Visit VS code">
                 <li>Visual Studio Code</li>
             </a>
         </ul>
-        <!--</article>
-        </section>-->
     </div>
-
 </body>
 <hr>
 <footer>
-    <p>Copyright © 2024 Chao-Wen</p>
     <a href="mailto:sdream2810@gmail.com" title="send mail to Chao-Wen">sdream2810@gmail.com</a>
+    <p>Copyright © 2024 Chao-Wen</p>
 </footer>
 
 </html>
