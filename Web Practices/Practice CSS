@@ -96,9 +96,17 @@ aside {
   overflow: auto;
 }
 
-.asidea {
-  display: flex;
+span a {
+  display: block;
   padding-top: 10px;
+}
+
+#goals {
+  border-radius: 20px;
+}
+
+#jopic {
+  border-radius: 20px;
 }
 
 /* 
