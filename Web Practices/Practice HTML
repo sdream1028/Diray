@@ -12,14 +12,17 @@
         <h1>Chao-Wen's Blog for learning coding</h1>
         <hr>
     </div>
-    <aside>
-        <h2 id="asideh2">Learning Progress</h2>
-            <span><a href="https://my-learning.w3schools.com/tutorial/html" target="_blank">HTML</a></span>
-            <span><a href="https://my-learning.w3schools.com/tutorial/css" target="_blank">CSS</a></span>
-            <span><a href="https://my-learning.w3schools.com/tutorial/js" target="_blank">JavaScript</a></span>
-            <span><a href="practice survey form/practiceSF.html" target="_blank">Survey Form Practice</a></span>
-            <span><a href="Cart web practice/cartweb.html" target="_blank">Cart Web Practice</a></span>
-    </aside>
+    <nav>
+        <h2 style="display: flex;">Learning Progress</h2>
+            <ul class="ul1">
+                <li><a href="https://my-learning.w3schools.com/tutorial/html" target="_blank">HTML</a></li>
+                <li><a href="https://my-learning.w3schools.com/tutorial/css" target="_blank">CSS</a></li>
+                <li><a href="https://my-learning.w3schools.com/tutorial/js" target="_blank">JavaScript</a></li>
+                <li><a href="practice survey form/practiceSF.html" target="_blank">Survey Form Practice</a></li>
+                <li><a href="Cart web practice/cartweb.html" target="_blank">Cart Web Practice</a></li>
+            </ul>
+    </nav>
+
     <div class="theDiaryLog">
         <h2>Diary</h2>
         <span id="img">
@@ -34,7 +37,7 @@
         <a href="https://pathfinder.w3schools.com/" target="_blank"><img src="224Goals.PNG" width="95%" title="2024/2/24 W3school's Pathfinder" alt="W3school's Pathfinder" id="goals"></a>
     </div>
 
-    <hr class="hr1">
+    <!-- <hr class="hr1"> -->
 
     <div class="resourcesLink">
         <h3>Self-study resources</h3>
