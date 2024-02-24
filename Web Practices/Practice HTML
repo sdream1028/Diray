@@ -14,23 +14,24 @@
     </div>
     <aside>
         <h2 id="asideh2">Learning Progress</h2>
-        <a href="https://my-learning.w3schools.com/tutorial/html" target="_blank" class="asidea">HTML</a>
-        <a href="https://my-learning.w3schools.com/tutorial/css" target="_blank" class="asidea">CSS</a>
-        <a href="https://my-learning.w3schools.com/tutorial/js" target="_blank" class="asidea">JavaScript</a>
-        <a href="practice survey form/practiceSF.html" target="_blank" class="asidea">Survey Form Practice</a>
-        <!-- <iframe src="https://pathfinder.w3schools.com/"></iframe> -->
+            <span><a href="https://my-learning.w3schools.com/tutorial/html" target="_blank">HTML</a></span>
+            <span><a href="https://my-learning.w3schools.com/tutorial/css" target="_blank">CSS</a></span>
+            <span><a href="https://my-learning.w3schools.com/tutorial/js" target="_blank">JavaScript</a></span>
+            <span><a href="practice survey form/practiceSF.html" target="_blank">Survey Form Practice</a></span>
+            <span><a href="Cart web practice/cartweb.html" target="_blank">Cart Web Practice</a></span>
     </aside>
     <div class="theDiaryLog">
         <h2>Diary</h2>
         <span id="img">
-            <img src="jojo.jpeg" alt="JoJo在睡覺" title="JoJo" height="280">
+            <img src="jojo.jpeg" alt="JoJo在睡覺" title="JoJo" height="280" id="jopic">
         </span>
         <p>2024-02-06 Signed up for <a href="https://www.fcu.edu.tw/" target="_blank">
             <abbr title="Feng Chia University">FCU</abbr></a> Master of Information and Electrical Engineering.</p>
         <p>2024-02-06 Start learning HTML, CSS.</p>
         <p>2024-02-13 Start learning JavaScript.</p>
+        <br>
         <p>Setting the Goals on W3school to become a Full-Stack Developer.</p>
-        <a href="https://pathfinder.w3schools.com/" target="_blank"><img src="224Goals.PNG" width="95%" title="2024/2/24 W3school's Pathfinder" alt="W3school's Pathfinder"></a>
+        <a href="https://pathfinder.w3schools.com/" target="_blank"><img src="224Goals.PNG" width="95%" title="2024/2/24 W3school's Pathfinder" alt="W3school's Pathfinder" id="goals"></a>
     </div>
 
     <hr class="hr1">
